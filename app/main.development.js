@@ -4,6 +4,9 @@ let menu;
 let template;
 let mainWindow = null;
 
+console.log('ooooooo');
+debugger
+
 if (process.env.NODE_ENV === 'production') {
   const sourceMapSupport = require('source-map-support'); // eslint-disable-line
   sourceMapSupport.install();

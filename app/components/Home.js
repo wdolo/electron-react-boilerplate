@@ -4,6 +4,8 @@ import { Link } from 'react-router';
 import styles from './Home.css';
 
 
+debugger;
+
 export default class Home extends Component {
   render() {
     return (

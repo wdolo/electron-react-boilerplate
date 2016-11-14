@@ -1,0 +1,22 @@
+{
+  "version": "0.1.0",
+  "command": "npm",
+  "windows": {
+    "command": "npm.cmd"
+  },
+  "tasks": [
+    {
+      "taskName": "install",
+      "isBuildCommand": true,
+      "args": ["--loglevel", "info"]
+    },
+    {
+      "taskName": "test",
+      "isTestCommand": true
+    },
+    {
+      "taskName": "lint",
+      "args": ["run"]
+    }
+  ]
+}
